@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [hrm test]">
+  <test thread-count="5" name="user role test case(failed)">
+    <classes>
+      <class name="Testcase.Userrole">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="usermanagement"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- Testcase.Userrole -->
+    </classes>
+  </test> <!-- user role test case(failed) -->
+</suite> <!-- Failed suite [hrm test] -->
